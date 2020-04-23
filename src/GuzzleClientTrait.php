@@ -1,4 +1,5 @@
 <?php
+
 namespace Cblink\YApi;
 
 use GuzzleHttp\Client;
@@ -16,7 +17,7 @@ trait GuzzleClientTrait
      */
     protected function getClient()
     {
-        if (!$this->client){
+        if (!$this->client) {
             $this->client = new Client();
         }
 
@@ -30,6 +31,7 @@ trait GuzzleClientTrait
     public function setClient(Client $client)
     {
         $this->client = $client;
+
         return $this;
     }
 
@@ -48,20 +50,20 @@ trait GuzzleClientTrait
             ],
             'verify' => false,
             'errors' => false,
-        ],$options));
+        ], $options));
 
         $contents = $response->getBody()->getContents();
 
         $array = json_decode($contents, true, 512, JSON_BIGINT_AS_STRING);
 
         if (JSON_ERROR_NONE === json_last_error()) {
-
-            if (isset($array['errcode']) && $array['errcode'] === 0){
+            if (isset($array['errcode']) && $array['errcode'] === 0) {
                 return (array) $array['data'];
             }
 
             throw new YApiException($array['errmsg'] ?? 'yapi request error');
         }
+
         throw new YApiException('yapi request error');
     }
 
@@ -93,11 +95,11 @@ trait GuzzleClientTrait
      */
     protected function getUrl($url)
     {
-        return sprintf('%s%s%s',
+        return sprintf(
+            '%s%s%s',
             rtrim($this->baseUrl, '/'),
             '/',
             ltrim($url, '/')
         );
     }
-
 }

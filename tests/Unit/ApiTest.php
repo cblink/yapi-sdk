@@ -1,4 +1,5 @@
 <?php
+
 namespace Cblink\YApi\Tests\Unit;
 
 use Cblink\YApi\Tests\TestCase;
@@ -15,12 +16,12 @@ class ApiTest extends TestCase
 
         $method = 'GET';
 
-        $path = sprintf("/test/%s", mt_rand(0,9999));
+        $path = sprintf("/test/%s", mt_rand(0, 9999));
 
         $payload = [
             "status" => "undone",
             "method" => $method,
-            "title" => sprintf("测试接口%s", mt_rand(0,9999)),
+            "title" => sprintf("测试接口%s", mt_rand(0, 9999)),
             "path" => $path,
             "req_params" => [
                 [

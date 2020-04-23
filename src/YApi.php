@@ -1,4 +1,5 @@
 <?php
+
 namespace Cblink\YApi;
 
 use GuzzleHttp\Client;
@@ -47,6 +48,7 @@ class YApi
     {
         $this->projectId = $projectId;
         $this->token = $token;
+
         return $this;
     }
 
@@ -79,8 +81,7 @@ class YApi
         string $desc = null,
         string $projectId = null,
         string $token = null
-    )
-    {
+    ) {
         return $this->post('/api/interface/add_cat', [
             'name' => $name,
             'desc' => $desc,
@@ -100,8 +101,7 @@ class YApi
     public function getApiGroups(
         string $projectId = null,
         string $token = null
-    )
-    {
+    ) {
         return $this->get('/api/interface/getCatMenu', [
             'project_id' => $projectId ?? $this->projectId,
             'token' => $token ?? $this->token
@@ -199,6 +199,4 @@ class YApi
             'token' => $token ?? $this->token
         ]);
     }
-
 }
-

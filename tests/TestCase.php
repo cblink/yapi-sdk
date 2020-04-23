@@ -1,4 +1,5 @@
 <?php
+
 namespace Cblink\YApi\Tests;
 
 use Cblink\YApi\YApi;
@@ -28,5 +29,4 @@ class TestCase extends BaseTestCase
     {
         return $this->client;
     }
-
 }

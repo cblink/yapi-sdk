@@ -1,4 +1,5 @@
 <?php
+
 namespace Cblink\YApi;
 
 use Exception;

@@ -1,4 +1,5 @@
 <?php
+
 namespace Cblink\YApi\Tests\Unit;
 
 use Cblink\YApi\Tests\TestCase;
