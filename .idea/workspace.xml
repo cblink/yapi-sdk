@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d38e07f3-dab8-45b8-9cad-1b5650b23698" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/yapi-sdk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.php_cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuzzleClientTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/YApiException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ApiTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/GroupTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ImportDataTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Unit/ProjectTest.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aswP1272eAYqXrRJqJVGg6EhjF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Traits" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d38e07f3-dab8-45b8-9cad-1b5650b23698" name="Default Changelist" comment="" />
+      <created>1587537581746</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587537581746</updated>
+      <workItem from="1587537583555" duration="20524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587545027595">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="184" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.807@0.23.1440.807" timestamp="1587545027595" />
+    <state x="672" y="261" key="NewPhpClassDialog" timestamp="1587554758903">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="672" y="261" key="NewPhpClassDialog/0.23.1440.807@0.23.1440.807" timestamp="1587554758903" />
+    <state x="113" y="23" key="SettingsEditor" timestamp="1587538491890">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="113" y="23" key="SettingsEditor/0.23.1440.807@0.23.1440.807" timestamp="1587538491889" />
+    <state x="-1476" y="-5" width="1032" height="752" key="find.popup" timestamp="1587609456427">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1476" y="-5" width="1032" height="752" key="find.popup/0.23.1440.807/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1587609456427" />
+    <state x="333" y="139" width="774" height="574" key="find.popup/0.23.1440.807@0.23.1440.807" timestamp="1587556015683" />
+    <state x="-1519" y="-157" width="1118" height="1057" key="search.everywhere.popup" timestamp="1587611930019">
+      <screen x="-1920" y="-157" width="1920" height="1057" />
+    </state>
+    <state x="-1519" y="-157" width="1118" height="1057" key="search.everywhere.popup/0.23.1440.807/-1920.-157.1920.1057@-1920.-157.1920.1057" timestamp="1587611930019" />
+    <state x="301" y="23" width="838" height="807" key="search.everywhere.popup/0.23.1440.807@0.23.1440.807" timestamp="1587546041810" />
+  </component>
+</project>
