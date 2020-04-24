@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d38e07f3-dab8-45b8-9cad-1b5650b23698" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yapi-sdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yapi-sdk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuzzleClientTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuzzleClientTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/YApi.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,8 @@
       <workItem from="1587537583555" duration="20655000" />
       <workItem from="1587625566526" duration="599000" />
       <workItem from="1587639042177" duration="15000" />
-      <workItem from="1587698032991" duration="20000" />
+      <workItem from="1587698032991" duration="128000" />
+      <workItem from="1587704614031" duration="57000" />
     </task>
     <servers />
   </component>

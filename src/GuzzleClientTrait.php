@@ -90,6 +90,22 @@ trait GuzzleClientTrait
     }
 
     /**
+     * @param string $url
+     * @param array $body
+     * @return array
+     * @throws YApiException
+     */
+    protected function postForm(string $url, array $body = [])
+    {
+        return $this->request('POST', $url, [
+            'headers' => [
+                'Content-Type' => 'application/x-www-form-urlencoded'
+            ],
+            'form_params' => $body
+        ]);
+    }
+
+    /**
      * @param $url
      * @return string
      */

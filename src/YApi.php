@@ -191,7 +191,7 @@ class YApi
      */
     public function importData(string $data, string $merge, string $url = null, string $token = null)
     {
-        return $this->post('/api/open/import_data', [
+        return $this->postForm('/api/open/import_data', [
             'type' => 'swagger',
             'json' => $data,
             'merge' => $merge,
