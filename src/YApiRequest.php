@@ -8,7 +8,7 @@ use GuzzleHttp\Client;
  * Class Client
  * @package Cblink\Yapi
  */
-class YApi
+class YApiRequest
 {
     use GuzzleClientTrait;
 
@@ -55,7 +55,7 @@ class YApi
     /**
      * 获取项目基本信息
      *
-     * @param string|null $token
+     * @param string $token
      * @return array
      * @throws YApiException
      */
@@ -70,9 +70,9 @@ class YApi
      * 新增接口菜单/分组
      *
      * @param string $name
+     * @param string $desc
      * @param string $projectId
-     * @param string|null $desc
-     * @param string|null $token
+     * @param string $token
      * @return array
      * @throws YApiException
      */
@@ -93,8 +93,8 @@ class YApi
     /**
      * 获取菜单列表/分组
      *
-     * @param string|null $projectId
-     * @param string|null $token
+     * @param string $projectId
+     * @param string $token
      * @return array
      * @throws YApiException
      */
@@ -112,7 +112,7 @@ class YApi
      * 获取接口数据
      *
      * @param int $id
-     * @param string|null $token
+     * @param string $token
      * @return array
      * @throws YApiException
      */
