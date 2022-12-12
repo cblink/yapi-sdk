@@ -40,11 +40,11 @@ class YApiRequest
     /**
      * 设置项目的ID和token
      *
-     * @param int $projectId
+     * @param string $projectId
      * @param string $token
      * @return $this
      */
-    public function setConfig(int $projectId, string $token)
+    public function setConfig(string $projectId, string $token)
     {
         $this->projectId = $projectId;
         $this->token = $token;
@@ -55,7 +55,7 @@ class YApiRequest
     /**
      * 获取项目基本信息
      *
-     * @param string $token
+     * @param string|null $token
      * @return array
      * @throws YApiException
      */
@@ -70,9 +70,9 @@ class YApiRequest
      * 新增接口菜单/分组
      *
      * @param string $name
-     * @param string $desc
-     * @param string $projectId
-     * @param string $token
+     * @param string|null $desc
+     * @param string|null $projectId
+     * @param string|null $token
      * @return array
      * @throws YApiException
      */
@@ -93,8 +93,8 @@ class YApiRequest
     /**
      * 获取菜单列表/分组
      *
-     * @param string $projectId
-     * @param string $token
+     * @param string|null $projectId
+     * @param string|null $token
      * @return array
      * @throws YApiException
      */
@@ -112,7 +112,7 @@ class YApiRequest
      * 获取接口数据
      *
      * @param int $id
-     * @param string $token
+     * @param string|null $token
      * @return array
      * @throws YApiException
      */
@@ -128,12 +128,13 @@ class YApiRequest
      * 获取接口列表数据
      *
      * @param int $projectId
+     * @param null $token
      * @param int $page
      * @param int $limit
      * @return array
      * @throws YApiException
      */
-    public function getApis(int $projectId, int $page = 1, int $limit = 10)
+    public function getApis(int $projectId, int $limit = 10, int $page = 1, $token = null)
     {
         return $this->get('/api/interface/list_cat', [
             'project_id' => $projectId,
@@ -149,10 +150,11 @@ class YApiRequest
      * @param int $groupId
      * @param int $page
      * @param int $limit
+     * @param null $token
      * @return array
      * @throws YApiException
      */
-    public function getApisByGroupId(int $groupId, int $page = 1, int $limit = 10)
+    public function getApisByGroupId(int $groupId, int $limit = 10, int $page = 1, $token = null)
     {
         return $this->get('/api/interface/list_cat', [
             'catid' => $groupId,
